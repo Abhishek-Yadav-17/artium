@@ -20,7 +20,7 @@ export default function Contact() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "abhinetcore1701@gmail.com, mrunmaiglakras@gmail.com",
+          to: "theartbyartium@gmail.com, mrunmaiglakras@gmail.com",
           subject: `Contact Form Submission from ${form.name}`,
           body: `Email: ${form.email}\nMessage: ${form.message}`
         })
@@ -45,10 +45,10 @@ export default function Contact() {
           <b>Address:</b> Mumbai, Maharashtra, India
         </div>
         <div className="mb-4">
-          <b>Email:</b> <a href="mailto:hello@artium.com" className="text-gold">hello@artium.com</a>
+          <b>Email:</b> <a href="mailto:theartbyartium@gmail.com" className="text-gold">theartbyartium@gmail.com</a>
         </div>
         <div className="mb-4">
-          <b>Phone:</b> <a href="tel:+912345678900" className="text-gold">+91 23456 78900</a>
+          <b>Phone:</b> <a href="tel:+917347872191" className="text-gold">+91 1234567890</a>
         </div>
         <form onSubmit={handleSubmit} className="mt-6">
           <div className="mb-4">
