@@ -49,12 +49,19 @@ export default function DigitalPortfolio() {
             <span style={{ fontFamily: 'Cinzel Decorative, serif' }} className="text-gold">Digital </span>
             <span style={{ fontFamily: 'Raleway, sans-serif' }} className="text-white">Portfolio</span>
           </h2>
-          <p className="max-w-xl text-white/80" style={{ fontFamily: 'Lato, sans-serif' }}>
-            Explore our digital campaigns, social media creatives, and more. Each piece is a blend of art and technology, designed to inspire and engage.
-          </p>
+          <p className="max-w-xl text-white/80" style={{ fontFamily: 'Lato, sans-serif'}}>
+          Step into our world of creative expression — where imagination meets innovation.<br/><br/>
+
+          At ArtiuM, our digital portfolio is a curated collection of social media creatives, campaigns, and visual experiments that showcase the synergy of art and technology. Every piece is more than just pixels — it's a carefully crafted story designed to inspire, engage, and leave a lasting impact.
+          <br/><br/>
+          Whether it’s a bold Instagram carousel, a striking video teaser, or an immersive ad concept, each project is built with intention, originality, and deep attention to visual language. From startups to established brands, we tailor each digital experience to resonate with its audience and elevate the brand’s presence in the digital cosmos.
+          <br/><br/>
+          🌌 Inspired by the universe, powered by design.
+          <br/><br/>
+          Explore our collection — and discover how we transform ideas into moments that move.          </p>
         </div>
         {/* 4 Overlapping images (scattered collage, bigger, much less overlap) */}
-        <div className="flex-1 relative flex items-center justify-center min-h-[420px] md:min-h-[520px] w-full md:w-[700px]">
+        <div className="flex-1 relative items-center justify-center min-h-[420px] md:min-h-[520px] w-full md:w-[700px] hidden md:flex">
           {/* Center image */}
           <img
             src={digitalImagesTop[2]}
