@@ -48,7 +48,7 @@ export default function Contact() {
           <b>Email:</b> <a href="mailto:theartbyartium@gmail.com" className="text-gold">theartbyartium@gmail.com</a>
         </div>
         <div className="mb-4">
-          <b>Phone:</b> <a href="tel:+917347872191" className="text-gold">+91 1234567890</a>
+          <b>Phone:</b> <a href="tel:+911234567890" className="text-gold">+91 1234567890</a>
         </div>
         <form onSubmit={handleSubmit} className="mt-6">
           <div className="mb-4">
